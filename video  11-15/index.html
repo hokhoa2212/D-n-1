@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 8</title>
+</head>
+<body>
+    <!-- lorem: sinh van ban -->
+    <!-- lorem3: sinh ra tu-->
+    <!-- lorem*5:  sinh ra 5 dong -->
+    <h1> Bài thơ phồn thể </h1>
+    <!-- thẻ br (biểu diễn: <br> or <br />): xuống dòng = endl(c++)  -->
+        <!-- thẻ hr: tạo đường kẻ ngang -->
+    <!-- 
+         thẻ b (bold): in đậm -> thẻ strong: nội dung quan trọng (cho máy hiểu)
+         thẻ i (italic): in nghiêng -> thẻ em:  nội dung cần nhấn mạnh (cho máy hiểuhiểu)
+         thẻ u (underline): gạch chân 
+    -->
+    <p> 
+        <hr>
+        <h4> <b>Tĩnh Dạ Tư </b> </h4> 
+        <p>
+            <!-- ctrl + d: chinh sua cac van ban giong nhaunhau -->
+            <i>Sáng trăng soi trước giường,</i><br>
+            Ngỡ là sương trên đất,<br>
+            Ngấn đầu nhìn trăng sáng,<br>
+            Cúi đầu nhớ cố hương.<br>
+            <b><u>tg: lý bạch</u></b><br>
+        </p>
+    </p>
+    <!-- thẻ list trong html - ul, ol -  và li (đều có mở, đóng) -->
+    <!-- thẻ ul - unordered list: danh sách không có thứ tự
+    thẻ ol - ordered list:  danh sách có thư tự , ol có 2 thuộc tính thông dụng: 
+        ->reversed -  đảo ngược thứ tự 
+        ->type=" " - hiển thị bằng kí tự
+    thẻ li - list item: thẻ con trực tiếp cua ul và ol  -->
+    <ul>
+        <li> item 1</li>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ul>
+    <!-- thuoc tính 1:  -->
+    <ol reversed>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <!-- thuộc tính 2 -->
+    <ol type="i">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <!-- web emmet (gõ tắt): luyen go code nhanh hon voi cac cú pháp -->
+    <!-- tao thẻ ul co chứ 5 thẻ li bên trong: ul>li*5 , 
+    trong TH muốn có nội dung bên trong thì ul>li*5{item$}-->
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <!-- bài tập ul, ol lồng nhau -->
+    <hr>
+    <h1>Mục lục 1</h1>
+    <ol type="I">
+        <li><b>Mở bài: Giới thiệu nhân vật truyện vổ tích</b></li>
+        <li><b>Thân bài: Tả nhân vật trong truyện cổ tích</b>
+            <ol>
+                <li>Tả bao quát nhân vật trong truyện cổ tích</li>
+                <li>Tả chi tiết nhân vật trong truyện cổ tíchtích</li>
+                <ol type="a">
+                    <li><i>Tả ngoại hình của nhân vật trong truyên cổ tích</i></li>
+                    <li><i>Tả tính tình của nhân vật trong truyện cổ tích</i></li>
+                    <li><i>Tả hoạt động của nhân vật trong truyện truyện cổ tíchtích</i></li>
+                </ol>
+            </ol> 
+        </li>
+        <li><b>Kết bài: Nêu cảm nghĩ của em về nhân vật trong truyên cổ tích</b></li>
+    </ol>
+    <hr>
+    <h1>Mục lục 2</h1>
+    <ul>
+        <li>Menu item 1</li>
+        <li>Menu item 2</li>
+        <ol type="I">
+            <li>menu item 2.1</li>
+            <li>menu item 2.2</li>
+            <ol>
+                <li>menu item 2.2.1</li>
+                <li>menu item 2.2.2</li>
+                <li>menu item 2.2.3</li>
+            </ol>
+            <li>menu item 2.3</li>
+            <li>menu item 2.4</li>
+        </ol>
+        <li>Menu item 3</li>
+        <li>Menu item 4</li>
+    </ul>
+</body>
+</html>
